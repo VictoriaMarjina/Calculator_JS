@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Калькулятор</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div class="calculator">
+      
+        <form class="calculator__form">
+            
+            <div class="calculator__row">
+                <input class="calculator__display" id="display" type="text" disabled />
+            </div>
+            
+            <div class="calculator__row">
+                <button type="button" value="c" class="calculator__key calculator__clear">C</button>
+                <button type="button" value="ce" class="calculator__key calculator__backspace">CE</button>
+                <button type="button" value="%" class="calculator__key calculator__percent">%</button>
+                <button type="button" value="+" class="calculator__key calculator__button calculator__key-operand">+</button>
+            </div>
+            
+            <div class="calculator__row">
+                <button type="button" value="9" class="calculator__key calculator__button">9</button>
+                <button type="button" value="8" class="calculator__key calculator__button">8</button>
+                <button type="button" value="7" class="calculator__key calculator__button">7</button>
+                <button type="button" value="-" class="calculator__key calculator__button calculator__key-operand">-</button>
+            </div>
+            
+            <div class="calculator__row">
+                <button type="button" value="6" class="calculator__key calculator__button">6</button>
+                <button type="button" value="5" class="calculator__key calculator__button">5</button>
+                <button type="button" value="4" class="calculator__key calculator__button">4</button>
+                <button type="button" value="*" class="calculator__key calculator__button calculator__key-operand">*</button>
+            </div>
+           
+            <div class="calculator__row">
+                <button type="button" value="3" class="calculator__key calculator__button">3</button>
+                <button type="button" value="2" class="calculator__key calculator__button">2</button>
+                <button type="button" value="1" class="calculator__key calculator__button">1</button>
+                <button type="button" value="/" class="calculator__key calculator__button calculator__key-operand">/</button>
+            </div>
+           
+            <div class="calculator__row">
+                <button type="button" value="0" class="calculator__key calculator__button">0</button>
+                <button type="button" value="." class="calculator__key calculator__button">.</button>
+                <button type="button" value="=" class="calculator__key  calculator__key--equal">=</button>
+            </div>
+        </form>
+    </div>
+<script src='./index.js'></script>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+</body>
+</html>

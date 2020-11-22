@@ -1,0 +1,55 @@
+body {
+    background-image: url(./fon-night.jpg);
+    background-size: cover;
+}
+.calculator__form {
+    height: 100%;
+    padding: 20px;
+    width: 250px;
+    border: 2px solid black;
+    margin: 100px auto 0;
+    text-align: center;
+    background-color:#2d248a;
+    box-shadow: 0 0 30px grey;
+    border-radius: 4px;
+}
+
+.calculator__row {
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.calculator__display {
+    margin: 0 0 20px;
+    width: 100%;
+    border: 1px solid #0000A1;
+    padding: 4px 2px;
+    text-align: right;
+    font: 700 16px/1 Arial, sans-serif;
+    color: darkslateblue;
+    background-color: #d5a4cf;
+}
+
+.calculator__key {
+    width: 41px;
+    height: 35px;
+    cursor: pointer;
+    border: none;
+    transition: all .2s;
+    text-transform: uppercase;
+    background-color: #d5a4cf;
+}
+
+.calculator__key--equal {
+    width: 44%;
+}
+
+.calculator__key:hover {
+    background-color: white;
+    font-weight: 700;
+}
+
+.calculator__key::-moz-focus-inner {
+    border: none
+}
